@@ -138,7 +138,7 @@ func getPublicKeyFromCacheOrBackend(keyId string, config KeycloakConfig) (KeyEnt
 	if err != nil {
 		return KeyEntry{}, err
 	}
-
+	fmt.Println(certs.Keys)
 	for _, keyIdFromServer := range certs.Keys {
 		if keyIdFromServer.Kid == keyId {
 			publicKeyCache.Set(keyId, keyIdFromServer, cache.DefaultExpiration)
