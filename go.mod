@@ -1,4 +1,4 @@
-module github.com/sefaphlvn/gin-keycloak
+module github.com/sefaphlvn/gin-keycloak2
 
 
 require (
