@@ -1,4 +1,5 @@
-module github.com/tbaehler/gin-keycloak
+module github.com/sefaphlvn/gin-keycloak
+
 
 require (
 	github.com/gin-gonic/gin v1.7.7
