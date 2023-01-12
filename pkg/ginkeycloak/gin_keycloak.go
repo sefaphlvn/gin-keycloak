@@ -7,6 +7,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"io/ioutil"
 	"math/big"
 	"net/http"
@@ -14,7 +15,6 @@ import (
 	"path"
 	"strings"
 	"time"
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang/glog"
